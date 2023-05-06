@@ -30,5 +30,5 @@ $description = $data['weather'][0]['description'];
 $temp = $data['main']['temp'];
 
 echo "The current weather in $city_name is $description with a temperature of $temp degrees Celsius.";
-```
+``` 
 
