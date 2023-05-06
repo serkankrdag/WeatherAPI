@@ -20,7 +20,6 @@ To use this script, you need to have an API key from OpenWeatherMap. If you don'
 Here's an example of how to use this script:
 
 “`
-<?php
 $api_key = '12345'; // Your OpenWeatherMap API key
 $city_name = 'London'; // The city name for which weather information is required
 
@@ -31,7 +30,5 @@ $description = $data['weather'][0]['description'];
 $temp = $data['main']['temp'];
 
 echo "The current weather in $city_name is $description with a temperature of $temp degrees Celsius.";
-?>
-
 “`
 
