@@ -1,4 +1,4 @@
-# Weather API
+# Weather API 
 
 This PHP script uses the OpenWeatherMap API to retrieve and display the current weather information for a specified city. It requires the user to input their API key and city name. The script extracts the weather description and temperature from the JSON data obtained from the API request, and displays it to the user.
 
